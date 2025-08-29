@@ -4,7 +4,7 @@ import '../css/fonts.css';
 import '../css/product-catalog.css';
 import { initCatalog } from './product-catalog.js';
 
-const catalogBodyElement = document.querySelector('.catalog__body');
+const catalogBodyElement = document.querySelector('.catalog__body')  as HTMLElement;
 
 catalogBodyElement.insertAdjacentHTML('beforeend', `
   <div class="container__filter">
